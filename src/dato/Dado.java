@@ -4,16 +4,18 @@ package dato;
 
 public class Dado {
     
-  private int dado1;
-  private int dado2;
+  private int Dado1;
+  private int Dado2;
 
     public Dado() {
     }
   
 
     public Dado(int dado1, int dado2) {
-        this.dado1 = dado1;
-        this.dado2 = dado2;
+        this.Dado1 = dado1;
+        this.Dado2 = dado2;
+        
+        
     }
   
     

@@ -6,8 +6,8 @@ public abstract class Base {
     
     public abstract Base copy();
 
-    public Base() {
-    }
+    
+   
     
     
     
