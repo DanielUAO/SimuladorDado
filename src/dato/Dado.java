@@ -31,7 +31,7 @@ public class Dado extends Base {
     public void setDado2(int dado2) {
         this.dado2 = dado2;
     }
-
+    
     @Override
     public Base copy() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
