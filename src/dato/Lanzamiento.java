@@ -2,16 +2,16 @@
 package dato;
 import modelo.Base;
 
-public class Dado extends Base {
+public class Lanzamiento extends Base {
     
   private int dado1;
   private int dado2;
 
-    public Dado() {
+    public Lanzamiento() {
     }
   
 
-    public Dado(int dado1, int dado2) {
+    public Lanzamiento(int dado1, int dado2) {
         this.dado1 = dado1;
         this.dado2 = dado2;
     }
