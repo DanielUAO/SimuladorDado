@@ -32,14 +32,16 @@ public class Lanzamiento extends Base {
         this.dado2 = dado2;
     }
     
-    @Override
-    public Base copy() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
 
     @Override
     public String toString() {
         return  dado1 + ", " + dado2;
     }
+    
+    @Override
+    public Base copy() {
+        return new Lanzamiento(dado1,dado2);
+    }
+    
     
 }

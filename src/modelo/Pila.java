@@ -10,18 +10,19 @@ public class Pila <T extends Base> {
     }
     
     public void apilar (T elemento){
-    
     cima.addFirst(elemento);
     }
     
     public T desapilar() {
     return cima.removeFirst();
-    
     }
     
     public boolean estaVacia(){
-    return cima.isEmpty();
+    return cima.isEmpty(); 
+    }
     
+    public int size() {
+    return cima.size();
     }
     
     public String toString(){
